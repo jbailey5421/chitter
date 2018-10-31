@@ -6,6 +6,7 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.8/css/font-awesome.min/css" %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
@@ -38,7 +39,7 @@
 <div class="navbar-end">
   <div class="field is-grouped">
    <p class="control">
-     <%= link_to 'new Tweet', new_tweet_path, class: "buttton is-infor is_inverted" %>
+     <%= link_to 'New Tweet', new_tweet_path, class: "buttton is-info is_inverted" %>
      </p>
 </div>
 
